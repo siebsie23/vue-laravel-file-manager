@@ -82,7 +82,7 @@ export default {
 
 <style lang="scss">
 .fm-modal {
-    position: absolute;
+    position: absolute!important;
     z-index: 9998;
     top: 0;
     bottom: 0;
@@ -91,7 +91,7 @@ export default {
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.35);
-    display: block;
+    display: block!important;
     transition: opacity 0.4s ease;
     overflow: auto;
 
